@@ -23,6 +23,7 @@ classDiagram
     }
 
     class Account {
+        -registration: number
         -balance: number
         -amount: number
     }
