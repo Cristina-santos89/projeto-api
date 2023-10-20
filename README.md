@@ -28,18 +28,12 @@ classDiagram
         -amount: number
     }
 
-    class Action {
-        -icon: string
-        -description: string
-    }
-
     class Transaction {
         -icon: string
         -description: string
     }
 
 User "1" *--"1" Account
-User "1" *--"N" Action
 User "1" *--"N" Transaction
 ```
 
