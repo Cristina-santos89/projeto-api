@@ -36,6 +36,4 @@ User "1" *--"1" Account
 User "1" *--"N" Transaction
 ```
 
-## Documentação da API
-
 
