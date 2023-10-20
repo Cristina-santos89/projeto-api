@@ -18,7 +18,6 @@ classDiagram
     class User {
         -name: string
         -account: Account
-        -actions: Action[]
         -historic: Transaction[]
     }
 
